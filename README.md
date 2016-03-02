@@ -8,14 +8,14 @@
 
 ## Introduction
 
-Almost every application has some sort of static information. This could be data (e.g., list of customers) or configuration (e.g., server settings). JSON provides a human-readable and rather compact (compare to XML) format. In other words, JSON files are good for storing static information, i.e., information without JavaScript/Node code.
+Almost every application has some sort of static information. This could be data (e.g., list of customers) or configuration (e.g., server settings). JSON provides a human-readable and rather compact format for storing static information.
 
 In this lab, you'll learn how to import a JSON file. The file will have database configurations for different environments (development and production) such as domain, port, and name. This information can be used later to connect to the development and production databases.
 
 ## Instructions
 
-1. Create a file `database.json` in `config` folder
-2. Copy object from the snippet below into `module.js` and convert it to a **valid** JSON
+1. Create a file `database.json` in the `config` directory
+2. Copy the object from the snippet below into `module.js` and convert it to a **valid** JSON
 3. Create a file `main.js`
 4. Import your configuration module in `main.js` with `require()`
 5. Use `path.join()` and `__dirname` for the path to `database.json` to make your script more robust. Refer to `node-global` if you forgot what `__dirname` is.
