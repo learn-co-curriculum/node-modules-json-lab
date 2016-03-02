@@ -8,7 +8,7 @@
 
 ## Introduction
 
-Almost every application has some sort of static information. This could be data (e.g., list of customers) or configuration (e.g., server settings). JSON provides a human-readable and rather compact (compare to XML) format. In other words, JSON files are good for storing static information, i.e., information without JavaScript/Node code.
+Almost every application has some sort of static information. This could be data (e.g., list of customers) or configuration (e.g., server settings). JSON provides a human-readable and rather compact format for storing static information.
 
 In this lab, you'll learn how to import a JSON file. The file will have database configurations for different environments (development and production) such as domain, port, and name. This information can be used later to connect to the development and production databases.
 
