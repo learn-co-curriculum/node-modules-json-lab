@@ -1,0 +1,12 @@
+{
+  "dev": {
+    "domain": "http://webapplog.com",
+    "port": 27017,
+    "name": "dev-db"
+  },
+  "prod": {
+    "domain": "http://webapplog.com",
+    "port": 27018,
+    "name": "prod-db"
+  }
+}
